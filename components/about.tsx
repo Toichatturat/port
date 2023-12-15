@@ -19,21 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+      I study in the Faculty of Economics. Thammasat University Expected to graduate in 2024.{" "}
+        <span className="font-medium">Learn quickly</span>,that is a phrase I often hear from people around me when they talk about me. I am a good learner. Have teamwork I have many skills, but {" "}
+        <span className="font-medium">I'm not a duck.t</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
+        problem-solving aspect and modeling Data science. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React, Next.js, Node.js,Python and SQL
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . I am also soft skills with Communication and Presentation. I am always looking to
+        learn new technologies and knowledge. I work well in a team. Learn quickly Solve problems well
       </p>
 
       <p>

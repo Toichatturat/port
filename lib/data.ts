@@ -1,10 +1,25 @@
+// import  "../public/corpcomment.png"
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { HiDocumentReport } from "react-icons/hi";
+import { HiChartSquareBar } from "react-icons/hi";
+import { HiOutlineOfficeBuilding } from "react-icons/hi";
+
+
+
+// import "../public/rmtdev.png"
+// import "@/public/wordanalytics.png"
+import {
+  Corpcomment,
+  Rmtdev,
+  Wordanalytics,
+} from "../public";
+
+// const corpcomment = "../public/corpcomment.png";
+// const rmtdev = "../public/rmtdev.png"
+// const wordanalytics = "@/public/wordanalytics.png"
 
 export const links = [
   {
@@ -35,52 +50,55 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Data analysis at Collective Wisdom",
+    location: "Thailand, Bangkok",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "4 months. Analyze data and help develop models with Python. Analyze data and compare competing companies in order to offer partner products for sale. Do ETL with SQL. Convert complicated Python code into SQL.",
+    icon: React.createElement(HiDocumentReport),
+    date: "2022-2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: " Business Analyst at Televisor company",
+    location: "Thailand, Bangkok(remote)",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "3 months.Maintain data in CRM Tools and create dashboards. Analyze data to develop your business, such as looking at customer behavior with various tools, using data science skills and analyzing problem solving.",
+    icon: React.createElement(HiChartSquareBar),
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Business Analyst at  Growth Innovation Company",
+    location: "Thailand, Bangkok.",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Get requiments and guide customers in using Salesforce. Talk with customers to understand each other. Negotiate with customers",
+    icon: React.createElement(HiOutlineOfficeBuilding),
+    date: "2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Deposit Model for Bank",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This web app show model and you can predict Customer time deposit on this web app. The model was analyzed in detail using various measures and Econometrics. It's work for bank",
+    tags: ["Python", "Econometric", "Streamlit", "Excel"],
+    imageUrl: Corpcomment,
+    link: "https://deposit-model-by-piw.streamlit.app/",
   },
   {
-    title: "rmtDev",
+    title: "Web for find jobs",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Find job web app. This web ‘job on you’ for find job. This just have frontend. This web have estimate salary for go to salary prediction. React, JS, HTML, CSS, Tailwind CSS, Netlify",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: Rmtdev,
+    link: "https://job-on-you-by-piw.netlify.app/find-jobs",
   },
   {
-    title: "Word Analytics",
+    title: "Salary Model and Predict web app",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This web app show model and you can predict Salary from real data on this web app. The model was analyzed in detail using various measures and Econometrics. ",
+    tags: ["Econometrics", "Python", "Streamlit", "Excel"],
+    imageUrl: Wordanalytics,
+    link: "https://salary-predict-piw.streamlit.app/",
   },
 ] as const;
 
@@ -94,14 +112,11 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "SQL",
+  "Econometric",
   "PostgreSQL",
   "Python",
   "Django",
   "Framer Motion",
+  "Streamlit",
 ] as const;
