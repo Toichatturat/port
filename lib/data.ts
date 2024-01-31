@@ -58,12 +58,12 @@ export const experiencesData = [
     date: "2022-2023",
   },
   {
-    title: " Business Analyst at Televisor company",
-    location: "Thailand, Bangkok(remote)",
+    title: " Data Scientinst at WorkVenture",
+    location: "Thailand, Bangkok",
     description:
-      "3 months.Maintain data in CRM Tools and create dashboards. Analyze data to develop your business, such as looking at customer behavior with various tools, using data science skills and analyzing problem solving.",
+      "Work with all foreigners. Responsible for working with data to receive and send APIs with Flask. Develop functions on the website that display real-time data to create various graphs, Machine Learning and Statistics Models that create value for People who use it to get information to create value for the company.",
     icon: React.createElement(HiChartSquareBar),
-    date: "2023",
+    date: "2024",
   },
   {
     title: "Business Analyst at  Growth Innovation Company",
